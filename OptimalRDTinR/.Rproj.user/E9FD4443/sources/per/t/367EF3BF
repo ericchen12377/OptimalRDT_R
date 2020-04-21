@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587505568225.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "947072695",
+    "id" : "367EF3BF",
+    "lastKnownWriteTime" : 1587505818,
+    "last_content_update" : 1587505818801,
+    "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/OptimalRDT_R/OptimalRDTinR/R/pi_MCSim_beta.R",
+    "project_path" : "R/pi_MCSim_beta.R",
+    "properties" : {
+        "cursorPosition" : "9,41",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
