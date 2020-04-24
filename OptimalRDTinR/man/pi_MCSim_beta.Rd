@@ -2,7 +2,7 @@
 % Please edit documentation in R/pi_MCSim_beta.R
 \name{pi_MCSim_beta}
 \alias{pi_MCSim_beta}
-\title{Define the simulation function to generate failure probability (for binomial)}
+\title{Beta prior simulation in binomial RDT}
 \usage{
 pi_MCSim_beta(M, seed, a, b)
 }
@@ -22,6 +22,7 @@ Vector of failure probability sample
 Define the simulation function to generate failure probability (for binomial)
 }
 \examples{
-pi_MCSim_beta(5000,10,1,1)
-0.4925217968 0.5730923335 0.9148640311 ...
+p <- pi_MCSim_beta(5000,10,1,1)
+print(p[1:3])
+> 0.4925217968 0.5730923335 0.9148640311
 }

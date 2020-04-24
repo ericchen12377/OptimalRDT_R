@@ -2,7 +2,7 @@
 % Please edit documentation in R/pi_MCSim_dirichlet.R
 \name{pi_MCSim_dirichlet}
 \alias{pi_MCSim_dirichlet}
-\title{Define the simulation function to generate failure probability (for multibinomial with dirichlet prior)}
+\title{Dirichlet prior simulation in multi-state RDT}
 \usage{
 pi_MCSim_dirichlet(M, seed, par)
 }
@@ -20,6 +20,7 @@ Vector of failure probability sample
 Define the simulation function to generate failure probability (for multibinomial with dirichlet prior)
 }
 \examples{
-pi_MCSim_dirichlet(1,10,c(1,1,1))
-0.5130724 0.3780014 0.1089262
+p <- pi_MCSim_dirichlet(5000,10,c(1,1,1))
+print(p[1,])
+> 0.5130724 0.3780014 0.1089262
 }
