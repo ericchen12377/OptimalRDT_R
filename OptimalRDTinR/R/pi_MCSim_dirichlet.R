@@ -8,13 +8,14 @@
 #' @return Vector of failure probability sample
 #' @examples
 #' p <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
-#' print(p[1, ])
-#' 0.5130724 0.3780014 0.1089262
-
+#' print(p[1:3, ])
+#' @seealso \code{\link{pi_MCSim_beta}}
+#' @export
+#' @importFrom gtools rdirichlet
 
 pi_MCSim_dirichlet <- function(M, seed, par){
-  requireNamespace("gtools")
+  #requireNamespace("gtools")
   set.seed(seed)
-  return(gtools::rdirichlet(M, par))
+  return(rdirichlet(M, par))
 }
 

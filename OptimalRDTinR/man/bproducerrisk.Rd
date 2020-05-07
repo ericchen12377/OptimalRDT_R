@@ -24,5 +24,7 @@ Define the producer's risk function which gets the probability of rejecting the 
 \examples{
 pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 bproducerrisk(n = 10, c = 2, pi = pi, R = 0.8);
-0.02826733
+}
+\seealso{
+\code{\link{bconsumerrisk}}, \code{\link{bacceptprob}}, \code{\link{brejectprob}}
 }

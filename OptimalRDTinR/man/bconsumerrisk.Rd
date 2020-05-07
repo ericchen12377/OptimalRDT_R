@@ -24,5 +24,7 @@ Define the consumer's risk function which gets the probability of passing the te
 \examples{
 pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 bconsumerrisk(n = 10, c = 2, pi = pi, R = 0.8);
-0.3330482
+}
+\seealso{
+\code{\link{bproducerrisk}}, \code{\link{bacceptprob}}, \code{\link{brejectprob}}
 }

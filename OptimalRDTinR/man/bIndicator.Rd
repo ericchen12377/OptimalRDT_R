@@ -19,8 +19,5 @@ Determine the binary indicator function to check whether the failure probability
 }
 \examples{
 bIndicator(pi = 0.05, R = 0.9)
-1
 bIndicator(pi = 0.2, R = 0.9)
-0
-
 }

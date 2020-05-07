@@ -21,6 +21,8 @@ Define the simulation function to generate failure probability with Dirichlet pr
 }
 \examples{
 p <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
-print(p[1, ])
-0.5130724 0.3780014 0.1089262
+print(p[1:3, ])
+}
+\seealso{
+\code{\link{pi_MCSim_beta}}
 }

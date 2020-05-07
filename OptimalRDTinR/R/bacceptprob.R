@@ -9,8 +9,9 @@
 #' @examples
 #' pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 #' bacceptprob(n = 10, c = 2, pi = pi);
-#' 0.2770267
-
+#' @seealso \code{\link{bconsumerrisk}}, \code{\link{bproducerrisk}}, \code{\link{brejectprob}}
+#' @export
+#' @importFrom stats pbinom
 
 
 bacceptprob <- function(n, c, pi){

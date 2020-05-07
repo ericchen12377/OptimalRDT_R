@@ -23,6 +23,8 @@ Define the simulation function to generate failure probability with Beta prior d
 }
 \examples{
 p <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-print(p[1:3])
-0.4925217968 0.5730923335 0.9148640311
+print(p)
+}
+\seealso{
+\code{\link{pi_MCSim_dirichlet}}
 }

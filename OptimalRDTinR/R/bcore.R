@@ -8,8 +8,8 @@
 #' @return Core Probability
 #' @examples
 #' bcore(n = 10, c = 2, pi = 0.2)
-#' 0.6777995
-
+#' @export
+#' @importFrom stats dbinom
 
 bcore <- function(n, c, pi){
   return(sum(dbinom(c(0:c), n, pi)))

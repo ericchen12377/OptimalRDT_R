@@ -21,5 +21,4 @@ Define the summed core function inside of the integration which gets the probabi
 }
 \examples{
 bcore(n = 10, c = 2, pi = 0.2)
-0.6777995
 }

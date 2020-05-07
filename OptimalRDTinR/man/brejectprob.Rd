@@ -22,5 +22,7 @@ Define the rejection probability function which gets the probability of rejectin
 \examples{
 pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
 brejectprob(n = 10, c = 2, pi = pi);
-0.7229733
+}
+\seealso{
+\code{\link{bconsumerrisk}}, \code{\link{bproducerrisk}}, \code{\link{bacceptprob}}
 }

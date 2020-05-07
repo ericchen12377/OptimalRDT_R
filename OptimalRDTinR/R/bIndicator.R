@@ -7,10 +7,9 @@
 #' @return 0 -- No; 1 -- Yes.
 #' @examples
 #' bIndicator(pi = 0.05, R = 0.9)
-#' 1
 #' bIndicator(pi = 0.2, R = 0.9)
-#' 0
-#'
+#' @export
+
 
 ######define the indicator function
 bIndicator <- function(pi, R){

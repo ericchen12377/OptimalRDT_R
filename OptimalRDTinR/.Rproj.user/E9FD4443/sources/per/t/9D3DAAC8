@@ -1,24 +1,24 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1588821288411.000,
+    "created" : 1588888857962.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "744067511",
-    "id" : "E76B4B8C",
-    "lastKnownWriteTime" : 1588821678,
-    "last_content_update" : 1588821678159,
+    "hash" : "1671015361",
+    "id" : "9D3DAAC8",
+    "lastKnownWriteTime" : 1588889063,
+    "last_content_update" : 1588889063919,
     "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/OptimalRDT_R/OptimalRDTinR/DESCRIPTION",
     "project_path" : "DESCRIPTION",
     "properties" : {
-        "cursorPosition" : "8,15",
+        "cursorPosition" : "7,27",
         "scrollLine" : "3"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 4,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "dcf"
