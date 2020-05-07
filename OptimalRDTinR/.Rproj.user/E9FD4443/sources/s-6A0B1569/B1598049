@@ -5,7 +5,7 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3149656535",
+    "hash" : "0",
     "id" : "B1598049",
     "lastKnownWriteTime" : 1587507022,
     "last_content_update" : 1587507022094,
@@ -13,7 +13,7 @@
     "project_path" : "R/hello.R",
     "properties" : {
         "cursorPosition" : "20,0",
-        "scrollLine" : "10"
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

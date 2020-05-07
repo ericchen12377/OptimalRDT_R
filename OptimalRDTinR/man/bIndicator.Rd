@@ -2,7 +2,7 @@
 % Please edit documentation in R/bIndicator.R
 \name{bIndicator}
 \alias{bIndicator}
-\title{Indicator for binomial RDT}
+\title{Binary Indicator for Binomial RDT}
 \usage{
 bIndicator(pi, R)
 }
@@ -15,7 +15,7 @@ bIndicator(pi, R)
 0 -- No; 1 -- Yes.
 }
 \description{
-Determine whether the failure probability satisfies the lower level reliability requirement. (Only for binomial RDT)
+Determine the binary indicator function to check whether the failure probability satisfies the lower level reliability requirement (for binomial RDT).
 }
 \examples{
 bIndicator(pi = 0.05, R = 0.9)

@@ -1,6 +1,6 @@
-#' Dirichlet Prior Simulation for Multi-state RDT
+#' Dirichlet prior simulation in multi-state RDT
 #'
-#' Define the simulation function to generate failure probability with Dirichlet prior distributions as conjugate prior to multinomial distributions (for multi-state RDT).
+#' Define the simulation function to generate failure probability (for multibinomial with dirichlet prior)
 #'
 #' @param M Simulation sample size
 #' @param seed Random seed for random sample
@@ -9,12 +9,12 @@
 #' @examples
 #' p <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
 #' print(p[1, ])
-#' 0.5130724 0.3780014 0.1089262
+#' > 0.5130724 0.3780014 0.1089262
 
 
 pi_MCSim_dirichlet <- function(M, seed, par){
-  requireNamespace("gtools")
+  require(gtools)
   set.seed(seed)
-  return(gtools::rdirichlet(M, par))
+  return(rdirichlet(M, par))
 }
 

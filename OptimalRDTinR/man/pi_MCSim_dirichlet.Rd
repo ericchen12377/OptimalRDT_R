@@ -2,7 +2,7 @@
 % Please edit documentation in R/pi_MCSim_dirichlet.R
 \name{pi_MCSim_dirichlet}
 \alias{pi_MCSim_dirichlet}
-\title{Dirichlet prior simulation in multi-state RDT}
+\title{Dirichlet Prior Simulation for Multi-state RDT}
 \usage{
 pi_MCSim_dirichlet(M, seed, par)
 }
@@ -17,10 +17,10 @@ pi_MCSim_dirichlet(M, seed, par)
 Vector of failure probability sample
 }
 \description{
-Define the simulation function to generate failure probability (for multibinomial with dirichlet prior)
+Define the simulation function to generate failure probability with Dirichlet prior distributions as conjugate prior to multinomial distributions (for multi-state RDT).
 }
 \examples{
-p <- pi_MCSim_dirichlet(5000,10,c(1,1,1))
-print(p[1,])
-> 0.5130724 0.3780014 0.1089262
+p <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
+print(p[1, ])
+0.5130724 0.3780014 0.1089262
 }
