@@ -7,8 +7,8 @@
 #' @param par Parameters for dirichlet distribution
 #' @return Vector of failure probability sample
 #' @examples
-#' p <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
-#' print(p[1:3, ])
+#' pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
+#' print(pi[1:3, ])
 #' @seealso \code{\link{pi_MCSim_beta}}
 #' @export
 #' @importFrom gtools rdirichlet

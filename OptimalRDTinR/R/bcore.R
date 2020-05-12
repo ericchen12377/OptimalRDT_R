@@ -5,7 +5,7 @@
 #' @param n RDT sample size.
 #' @param c Maximum allowable failures.
 #' @param pi Failure probability.
-#' @return Core Probability
+#' @return Core probability of passing the test given specific failure probabilities.
 #' @examples
 #' bcore(n = 10, c = 2, pi = 0.2)
 #' @export

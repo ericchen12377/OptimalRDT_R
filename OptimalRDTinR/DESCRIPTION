@@ -1,7 +1,7 @@
 Package: OptimalRDTinR
 Type: Package
 Title: R package for optimal reliability demonstration test design
-Version: 0.1.5
+Version: 0.2.0
 Author: Suiyao Chen
 Maintainer: The package maintainer <suiyaochen@mail.usf.edu>
 Description: This is the R package for optimal reliability demonstration test design. 
@@ -12,5 +12,8 @@ RoxygenNote: 7.1.0
 Imports:
     tidyverse,
     gtools,
-    stats
+    stats,
+    reshape2,
+    dplyr,
+    utils
     

@@ -20,8 +20,8 @@ Vector of failure probability sample
 Define the simulation function to generate failure probability with Dirichlet prior distributions as conjugate prior to multinomial distributions (for multi-state RDT).
 }
 \examples{
-p <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
-print(p[1:3, ])
+pi <- pi_MCSim_dirichlet(M = 5000, seed = 10, par = c(1, 1, 1))
+print(pi[1:3, ])
 }
 \seealso{
 \code{\link{pi_MCSim_beta}}

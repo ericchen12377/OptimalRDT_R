@@ -1,6 +1,6 @@
 #' Binary Indicator for Binomial RDT
 #'
-#' Determine the binary indicator function to check whether the failure probability satisfies the lower level reliability requirement (for binomial RDT).
+#' Define the binary indicator function to check whether the failure probability satisfies the lower level reliability requirement (for binomial RDT).
 #'
 #' @param pi Failure probability.
 #' @param R Lower Level reliability requirement.

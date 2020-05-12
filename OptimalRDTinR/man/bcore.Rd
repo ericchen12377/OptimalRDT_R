@@ -14,7 +14,7 @@ bcore(n, c, pi)
 \item{pi}{Failure probability.}
 }
 \value{
-Core Probability
+Core probability of passing the test given specific failure probabilities.
 }
 \description{
 Define the summed core function inside of the integration which gets the probability of passing the test given specific failure probabilities (for binomial RDT).
