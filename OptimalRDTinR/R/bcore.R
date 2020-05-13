@@ -1,6 +1,6 @@
-#' Probability Core for Binomial RDT
+#' @title Probability Core for Binomial RDT
 #'
-#' Define the summed core function inside of the integration which gets the probability of passing the test given specific failure probabilities (for binomial RDT).
+#' @description  Define the summed core function inside of the integration which gets the probability of passing the test given specific failure probabilities (for binomial RDT).
 #'
 #' @param n RDT sample size.
 #' @param c Maximum allowable failures.

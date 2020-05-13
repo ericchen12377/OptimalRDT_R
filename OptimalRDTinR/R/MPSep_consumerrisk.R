@@ -1,6 +1,6 @@
-#' Consumer's Risk for Multi-State RDT with Multiple Periods and Criteria for Separate Periods
+#' @title Consumer's Risk for Multi-State RDT with Multiple Periods and Criteria for Separate Periods
 #'
-#' Define the consumer risk function hich gets the probability of passing the test when the lower level reliability requirements are not satisfied for any cumulative periods.
+#' @description Define the consumer risk function hich gets the probability of passing the test when the lower level reliability requirements are not satisfied for any cumulative periods.
 #' The maximum allowable failures for each separate period need to be satisfied to pass the test (for Multi-state RDT, Multiple Periods, Scenario I)
 #'
 #' @param n RDT sample size

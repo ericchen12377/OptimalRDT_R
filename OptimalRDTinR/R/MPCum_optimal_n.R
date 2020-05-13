@@ -1,6 +1,6 @@
-#' Optimal Test Sample Size for Multi-State RDT with Multiple Periods and Criteria for Cumulative Periods
+#' @title Optimal Test Sample Size for Multi-State RDT with Multiple Periods and Criteria for Cumulative Periods
 #'
-#' Define the optimal function to find the optimal test plan with minimum test sample size given an acceptable level of consumer's risk.
+#' @description Define the optimal function to find the optimal test plan with minimum test sample size given an acceptable level of consumer's risk.
 #' The maximum allowable failures for each cumulative period need to be satisfied to pass the test (for Multi-state RDT, Multiple Periods, Scenario I)
 #'
 #' @param cvec Maximum allowable failures for each separate period

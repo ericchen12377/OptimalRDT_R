@@ -1,6 +1,6 @@
-#' Optimal Expected Overall Costs in Binomial RDT Design
+#' @title Optimal Expected Overall Costs in Binomial RDT Design
 #'
-#' Define the optimal function to find the optimal test plan with optimal expected overall costs (for binomial RDT).
+#' @description Define the optimal function to find the optimal test plan with optimal expected overall costs (for binomial RDT).
 #'
 #' @param Cf Fixed costs of RDT
 #' @param Cv Variable unit costs of RDT

@@ -1,6 +1,6 @@
-#' Optimal Test Sample Size for Binomial RDT
+#' @title Optimal Test Sample Size for Binomial RDT
 #'
-#' Define the optimal function to find the optimal test plan with minimum test sample size given an acceptable
+#' @description Define the optimal function to find the optimal test plan with minimum test sample size given an acceptable
 #' level of consumer's risk (for binomial RDT).
 #'
 #' @param c Maximum allowable failures

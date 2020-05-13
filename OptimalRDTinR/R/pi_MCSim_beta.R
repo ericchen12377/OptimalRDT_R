@@ -1,6 +1,6 @@
-#' Beta Prior Simulation for Binomial RDT
+#' @title Beta Prior Simulation for Binomial RDT
 #'
-#' Define the simulation function to generate failure probability with Beta prior distributions as conjugate prior to binomial distributions (for binomial RDT).
+#' @description Define the simulation function to generate failure probability with Beta prior distributions as conjugate prior to binomial distributions (for binomial RDT).
 #'
 #' @param M Simulation sample size
 #' @param seed Random seed for random sample

@@ -1,6 +1,6 @@
-#' Acceptance Probability for Binomial RDT
+#' @title Acceptance Probability for Binomial RDT
 #'
-#' Define the acceptance probability function which gets the probability of passing the test (for binomial RDT).
+#' @description Define the acceptance probability function which gets the probability of passing the test (for binomial RDT).
 #'
 #' @param n RDT sample size.
 #' @param c Maximum allowable failures.

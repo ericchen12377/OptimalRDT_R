@@ -1,6 +1,6 @@
-#' Cost Function for Binomial RDT
+#' @title Cost Function for Binomial RDT
 #'
-#' Define the cost function of RDT, mainly determined by the test sample size (for binomial RDT)
+#' @description Define the cost function of RDT, mainly determined by the test sample size (for binomial RDT)
 #'
 #' @param Cf Fixed costs
 #' @param Cv Variable costs.

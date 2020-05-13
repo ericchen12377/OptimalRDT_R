@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589339487586.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "999270730",
+    "id" : "D7AEF62A",
+    "lastKnownWriteTime" : 1589339551,
+    "last_content_update" : 1589339551079,
+    "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/OptimalRDT_R/OptimalRDTinR/R/MFM_core.R",
+    "project_path" : "R/MFM_core.R",
+    "properties" : {
+        "cursorPosition" : "15,3",
+        "scrollLine" : "10",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,6 +1,6 @@
-#' Cost Function for Reliability Growth
+#' @title Cost Function for Reliability Growth
 #'
-#' Define the cost function of reliabiltiy growth (RG) after the decision of the test (for binomial RDT).
+#' @description Define the cost function of reliabiltiy growth (RG) after the decision of the test (for binomial RDT).
 #'
 #' @param G A constant value reliabilty growth cost, suggest to be sufficiently larger than RDT cost.
 #' @return Reliability growth cost

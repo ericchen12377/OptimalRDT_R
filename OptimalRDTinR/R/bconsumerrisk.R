@@ -1,6 +1,6 @@
-#' Consumer's Risk for Binomial RDT
+#' @title Consumer's Risk for Binomial RDT
 #'
-#' Define the consumer's risk function which gets the probability of passing the test when the lower level reliability requirement is not satisfied (for binomial RDT).
+#' @description Define the consumer's risk function which gets the probability of passing the test when the lower level reliability requirement is not satisfied (for binomial RDT).
 #'
 #' @param n RDT sample size.
 #' @param c Maximum allowable failures.

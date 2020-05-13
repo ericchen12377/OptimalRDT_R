@@ -1,6 +1,6 @@
-#' Rejection Probability for Binomial RDT
+#' @title Rejection Probability for Binomial RDT
 #'
-#' Define the rejection probability function which gets the probability of rejecting the test (for binomial RDT).
+#' @description Define the rejection probability function which gets the probability of rejecting the test (for binomial RDT).
 #'
 #' @param n RDT sample size.
 #' @param c Maximum allowable failures.

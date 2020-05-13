@@ -1,6 +1,6 @@
-#' Dirichlet Prior Simulation for Multi-state RDT
+#' @title Dirichlet Prior Simulation for Multi-state RDT
 #'
-#' Define the simulation function to generate failure probability with Dirichlet prior distributions as conjugate prior to multinomial distributions (for multi-state RDT).
+#' @description Define the simulation function to generate failure probability with Dirichlet prior distributions as conjugate prior to multinomial distributions (for multi-state RDT).
 #'
 #' @param M Simulation sample size
 #' @param seed Random seed for random sample

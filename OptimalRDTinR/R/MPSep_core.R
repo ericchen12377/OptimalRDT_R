@@ -1,6 +1,6 @@
-#' Probability Core for Multi-State RDT with Multiple Periods and Criteria for Separate Periods
+#' @title Probability Core for Multi-State RDT with Multiple Periods and Criteria for Separate Periods
 #'
-#' Define the summed core function inside of the integration which gets the probability of passing the test given specific failure probabilities.
+#' @description Define the summed core function inside of the integration which gets the probability of passing the test given specific failure probabilities.
 #' The maximum allowable failures for each separate period need to be satisfied to pass the test (for Multi-state RDT, Multiple Periods, Scenario II).
 #'
 #' @param n RDT sample size

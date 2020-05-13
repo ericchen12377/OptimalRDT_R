@@ -1,6 +1,6 @@
-#' Binary Indicator for Multi-State RDT with Multiple Periods
+#' @title Binary Indicator for Multi-State RDT with Multiple Periods
 #'
-#' Define the binary indicator function to check whether the failure probability satisfies the lower level reliability requirements for each cumulative period (for Multi-state RDT, Multiple Periods)
+#' @description Define the binary indicator function to check whether the failure probability satisfies the lower level reliability requirements for each cumulative period (for Multi-state RDT, Multiple Periods)
 #'
 #' @param pivec Failure probability for each separate period.
 #' @param Rvec Lower level reliability requirements for each cumulative period from the begining of the test.

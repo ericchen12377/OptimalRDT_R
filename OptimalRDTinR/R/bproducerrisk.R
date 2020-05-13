@@ -1,6 +1,6 @@
-#' Producer's Risk for Binomial RDT
+#' @title Producer's Risk for Binomial RDT
 #'
-#' Define the producer's risk function which gets the probability of rejecting the test when the lower level reliability requirement can be satisfied (for binomial RDT).
+#' @description Define the producer's risk function which gets the probability of rejecting the test when the lower level reliability requirement can be satisfied (for binomial RDT).
 #'
 #' @param n RDT sample size.
 #' @param c Maximum allowable failures.

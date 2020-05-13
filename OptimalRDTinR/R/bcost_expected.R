@@ -1,6 +1,6 @@
-#' Cost Function for Expected Overall Costs in Binomial RDT Design
+#' @title Cost Function for Expected Overall Costs in Binomial RDT Design
 #'
-#' Define the cost function of expected overall cost including the RDT cost, expected reliabiltiy growth cost and expected warranty services cost (for binomial RDT design).
+#' @description Define the cost function of expected overall cost including the RDT cost, expected reliabiltiy growth cost and expected warranty services cost (for binomial RDT design).
 #'
 #' @param Cf Fixed costs of RDT
 #' @param Cv Variable unit costs of RDT

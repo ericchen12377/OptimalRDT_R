@@ -1,6 +1,6 @@
-#' Cost Function for Warranty Services
+#' @title Cost Function for Warranty Services
 #'
-#' Define the cost function of warranty services (WS) after the decision of the test (for binomial RDT)
+#' @description Define the cost function of warranty services (WS) after the decision of the test (for binomial RDT)
 #'
 #' @param Cw Average cost per warranty claim
 #' @param N Sales volume
